@@ -7,7 +7,7 @@ class BookMark < Sinatra::Base
   end
 
   get "/" do
-    "Hello World!"
+    "Welcome to Bookmark Manager"
   end
 
   # start the server if ruby file executed directly
