@@ -9,6 +9,7 @@ gem "sinatra"
 gem "selenium-webdriver"
 gem "webrick"
 gem "sinatra-reloader"
+gem "pg"
 
 group :test do
   gem "rubocop", "1.20"
