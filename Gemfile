@@ -8,6 +8,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 gem "sinatra"
 gem "selenium-webdriver"
 gem "webrick"
+gem "sinatra-reloader"
 
 group :test do
   gem "rubocop", "1.20"
