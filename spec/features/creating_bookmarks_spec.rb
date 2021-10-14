@@ -6,5 +6,6 @@ feature "Adding a new bookmark" do
     click_button("Submit")
 
     expect(page).to have_content "example"
+    expect(page).to have_link("example", href: "http://example.org")
   end
 end
